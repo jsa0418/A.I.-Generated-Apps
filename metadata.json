@@ -1,0 +1,8 @@
+{
+  "name": "Carbon Footprint Tracker",
+  "description": "Track your daily activities' carbon footprint with actionable tips to reduce your environmental impact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

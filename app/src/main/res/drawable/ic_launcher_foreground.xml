@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21 to 87) -->
+    <!-- Stylized Leaf Body -->
+    <path
+        android:pathData="M54,23 C68,23 80,36 80,52 C80,68 66,78 54,84 C42,78 28,68 28,52 C28,36 40,23 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="25"
+                android:endX="75"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#5BE49B" android:offset="0.0" />
+                <item android:color="#2BB86B" android:offset="0.6" />
+                <item android:color="#19874B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center leaf spine & vein -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,30 L54,76" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,44 L66,37" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L42,47" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,64 L65,58" />
+
+    <!-- Stylized footprint heel / droplet at bottom center -->
+    <path
+        android:fillColor="#E8F8F0"
+        android:pathData="M54,70 C51,70 49,72.5 49,75.5 C49,79 54,83 54,83 C54,83 59,79 59,75.5 C59,72.5 57,70 54,70 Z" />
+</vector>
